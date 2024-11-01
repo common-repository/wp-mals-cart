@@ -1,0 +1,137 @@
+/* wp-malscart options page CSS */
+
+input {
+	margin-right:5px;
+}
+h3.title {
+	margin-top:2em;
+}
+.read_column {
+	width: 60ex;
+	margin:0 20px 0 10px;
+	float:left;
+}
+#help>h3 {
+	display:none;
+}
+.settings_page_wp-mals-cart .submit {
+	clear:both;
+}
+.settings_page_wp-mals-cart .wrap.help .submit {
+	display:none;
+}
+
+/* this supresses WP's validation error messages */
+div.settings-error {
+	display:none;
+}
+div.wp-mals-cart.settings-error {
+	display:block;
+}
+/**/
+
+
+
+[class^='wp-malscart-button'] {
+	/*margin-top:2em;*/
+	background-color:#fff;
+	padding:10px;
+}
+.buy-button-styles > div {
+	float: left;
+  margin-right: 20px;
+	overflow:auto;
+	padding:30px;
+	border:1px solid #EEE;
+	border-radius: 5px;
+	position:relative;
+}
+.buy-button-styles > div label:first-child {
+	position:absolute;
+	top:3px;
+	left: 3px;
+}
+
+.wp-mals-cart-message-field {
+	float:left;
+	width:400px;
+	height:6em;
+}
+
+.field-help-message {
+	display:inline-block;
+	width:400px;
+	margin: 0 8px;
+}
+
+.settings_page_wp-mals-cart img {
+	border:1px solid #ccc;
+}
+
+
+/*   UI TABS   */
+.ui-tabs-nav {
+	border-bottom: 1px solid #ccc;
+	height: 27px;
+	margin: 20px 0;
+	padding: 0;
+}
+
+.ui-tabs-nav li {
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+.ui-tabs-nav li a {
+	padding: 4px 20px 6px;
+	font-weight: bold;
+}
+
+.ui-tabs-nav li a {
+	border-style: solid;
+	border-color: #CCC #CCC #F9F9F9;
+	border-width: 1px 1px 0;
+	color: #C1C1C1;
+	text-shadow: rgba(255, 255, 255, 1) 0 1px 0;
+	display: inline-block;
+	padding: 4px 14px 6px;
+	text-decoration: none;
+	margin: 0 6px -1px 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-khtml-border-top-left-radius: 5px;
+	-khtml-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.ui-tabs-nav li.ui-tabs-selected a,
+.ui-tabs-nav li.ui-state-active a {
+	border-width: 1px;
+	color: #464646;
+	background-color:#ffffff;
+}
+
+.ui-tabs-panel {
+	clear: both;
+}
+
+.ui-tabs-panel h3 {
+	font: italic normal normal 24px/29px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	margin: 0;
+	padding: 0 0 5px;
+	line-height: 35px;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.ui-tabs-panel h4 {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+.settings_page_wp-mals-cart .wrap h3, .settings_page_wp-mals-cart .wrap table {
+	/*display: none;*/
+}

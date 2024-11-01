@@ -1,0 +1,26 @@
+/*  CSS rules for WP Mals Cart Purchase buttons and forms  */
+/* general style for buttons */
+
+div.wp-mals-cart {
+	text-align:center;
+	background-color:#eee;
+	border:1px solid #ddd;
+	border-radius: 5px;
+	padding:12px;
+}
+.wp-mals-cart .product-options {
+	text-align:left;
+	margin:12px auto;
+}
+.wp-mals-cart input[type='radio'],
+.wp-mals-cart input[type='checkbox'] {
+	position:relative;
+	top:.2em;
+	margin-right:5px;
+}
+.wp-mals-cart p, .wp-mals-cart h4 {
+	margin:0;
+}
+/*  button-type styles  */
+.wp-mals-cart-button-2 {
+}
